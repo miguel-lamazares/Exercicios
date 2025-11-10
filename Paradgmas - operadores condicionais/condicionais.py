@@ -121,8 +121,8 @@ b = int(input("Digite o segundo lado do triângulo: "))
 c = int(input("Digite o terceiro lado do triângulo: "))
 
 if a >= b + c or b >= a + c or c >= a + b:
-	print("este triangulo não atende a lei de existência")
+	print("Este triangulo não atende a lei de existência")
 else:
-	print("este triangulo atende a lei de existência")
+	print("Este triangulo atende a lei de existência")
 
 
